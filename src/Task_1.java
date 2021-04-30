@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main extends RuntimeException {
+public class Task_1 {
     // Выдаёт, откуда был вызван данный метод
     public static String getCallerClassAndMethodName() {
         if (Thread.currentThread().getStackTrace().length > 3) {
